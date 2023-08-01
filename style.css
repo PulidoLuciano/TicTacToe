@@ -16,6 +16,8 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 30px;
 }
 
 #board{
@@ -42,4 +44,18 @@ body{
 
 .o{
     color: var(--playerTwo);
+}
+
+button{
+    border: none;
+    border-radius: 50px;
+    background-color: #00cc00;
+    color: white;
+    padding: 5px 30px;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #00aa00;
 }
